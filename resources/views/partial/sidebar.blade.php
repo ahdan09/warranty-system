@@ -1,3 +1,8 @@
+      <!-- Brand Logo -->
+  <a href="/" class="brand-link">
+    <img src="images/11.png"style="width: auto; height:55px"><br>
+    <span style="margin-left: 10px;">Dashboard</span>
+  </a>
 <div class="sidebar">
     <!-- Sidebar user (optional) -->
     <div class="user-panel mt-3 pb-3 mb-3 d-flex" style="font-weight: 800; font-size: 17px;">

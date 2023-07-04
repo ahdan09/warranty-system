@@ -25,12 +25,6 @@
 
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
-    <!-- Brand Logo -->
-    <a href="/" class="brand-link">
-      <img src="images/LOGOH.png" alt="alternative" style="width: auto; height:55px"><br>
-      <span style="margin-left: 20px; te">Dashboard</span>
-    </a>
-
     <!-- Sidebar -->
     @include('partial.sidebar')
     <!-- /.sidebar -->

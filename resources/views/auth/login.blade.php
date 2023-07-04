@@ -22,7 +22,7 @@
             <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Tivo</a> -->
 
             <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="/"><img src="images/LOGOH.png" alt="alternative" style="width: auto; height:55px"></a> 
+            <a class="navbar-brand logo-image" href="/"><img src="images/11.png" alt="alternative" style="width: auto; height:55px"></a> 
             
             <!-- Mobile Menu Toggle Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,7 +52,7 @@
                         <form method="POST" action="{{ route('login') }}">
                             @csrf
                             <div class="form-group">
-                                <input id="email" type="email" class="form-control-input @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+                                <input id="email" type="email" class="form-control-input @error('email') is-invalid @enderror" name="email" required autocomplete="email" autofocus>
                             
                                 <label class="label-control" for="email">{{ __('Email Address') }}</label>
                                 @error('email')
@@ -71,7 +71,8 @@
                                     </span>
                                 @enderror
                             </div>
-                                                        <div class="form-group">
+                                                        
+                            <div class="form-group">
                                 <button type="submit"  class="form-control-submit-button">
                                     {{ __('Login') }}
                                 </button>
